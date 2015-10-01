@@ -3,7 +3,7 @@ Multi-threaded host discovery tool using Linux ping utility to scan subnets
 
 Pinger:
 
-    Desc:       Network discovery tool for Linux
+    Desc:       Host discovery tool for Linux
     Depends:    C++11, Linux ping utility
     Author:     Mike Gonzalez (mgonz50@rutgers.edu)
 
@@ -16,6 +16,7 @@ Compile:
     g++ -pthread -std=c++11 pinger.cpp -o pinger.exe core/net.cpp
 
 Setup HOW-TO:
+
     Requirements:
         GCC C++11 compiler, Linux ping utility
 
