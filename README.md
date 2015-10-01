@@ -1,4 +1,4 @@
-# net_discovery
+# net_scan
 Multi-threaded network discovery tool using Linux ping utility to scan subnets
 
 Pinger:
