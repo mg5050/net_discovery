@@ -8,9 +8,11 @@ Pinger:
     Author:     Mike Gonzalez (mgonz50@rutgers.edu)
 
 Usage:
+
     pinger.exe 192.168.1.1/24
 
 Compile:   
+
     g++ -pthread -std=c++11 pinger.cpp -o pinger.exe core/net.cpp
 
 Setup HOW-TO:
